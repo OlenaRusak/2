@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("./assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("./assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url("./assets/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url("./assets/fonts/Montserrat-Medium.ttf");
+}
+
+.wrapper {
+    display: flex;
+    margin: auto;
+    width: 1920;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1170px;
+    height: 84px;
+    padding-top: 25px;
+}
+
+header .img {
+    width: 109px;
+    height: 84px;
+}
+
+.wrapper .header .nav p:nth-child(:first-child) {
+    width: 88px;
+}
+
+header nav {
+    display: flex;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    line-height: 25px;
+    width: 45%;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.tel_number {
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    line-height: 25px;
+    width: 25%;
+    margin-left: -8px;
+    color: #A52424;
+}
+
+
+/* section general_info */
+
+.general_info {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.name_photographer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.general_info .name_photographer h1 {
+    font-family: Montserrat-Bold;
+    font-size: 72px;
+    color: #232323;
+}
+
+.general_info .name_photographer p {
+    font-family: Montserrat-SemiBold;
+    font-size: 22px;
+    margin: -30px 0 70px 0;
+}
+
+.general_info .name_photographer button {
+    border: #A52424 solid 2px;
+    width: 336px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color: #A52424;
+    line-height: 25px;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+}
+
+.general_info .name_photographer img {
+    width: 674 px;
+    height: 677px;
+}
+
+/* section info_about_author */
+.info_about_author {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 700px;
+    width: 1170px;
+    margin-bottom: 150px;
+}
+
+.about_photographer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_photographer_foto {
+    display: flex;
+    width: 28%;
+}
+
+.info_about_author h2 {
+    font-family: Montserrat-Bold;
+    font-size: 64px;
+    color: #232323;
+
+}
+
+.shadow {
+    width: 377px;
+    height: 561px;
+    background-color: #FFFFFF;
+    box-shadow: -7px 13px 17px #cac2c2;
+}
+
+.about_photographer_foto .shadow p {
+    margin: 90px 0 0 120px;
+    font-family: Montserrat-SemiBold;
+    font-size: 22px;
+    color: #A52424;
+    line-height: 25px;
+}
+
+.shadow img {
+    width: 278px;
+    height: 371px;
+    position: relative;
+    top: 50px;
+    left: 118px;
+}
+
+.about_photographer_info {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 57%;
+}
+
+.about_photographer_info h3 {
+    font-family: Montserrat-SemiBold;
+    font-size: 22px;
+    color: #A52424;
+    line-height: 25px;
+}
+
+.about_photographer_info p {
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #232323;
+    line-height: 25px;
+
+}
+
+.shadow_2 {
+    width: 567px;
+    height: 330px;
+    background-color: #FFFFFF;
+    box-shadow: 12px 12px 16px 1px #cac2c2;
+}
+
+.shadow_2 img {
+    width: 642px;
+    height: 268px;
+    position: relative;
+    top: 31px;
+    left: -106px;
+}
+
+
+/* section Portfolio */
+.portfolio {
+    display: flex;
+    margin-bottom: 150px;
+    flex-direction: column;
+    width: 1170;
+    height: 800px;
+}
+
+.portfolio h1 {
+    font-family: Montserrat-Bold;
+    font-size: 64px;
+    color: #232323;
+}
+
+.portfolio_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio_foto {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.portfolio_foto img {
+    width: 377px;
+    height: 567 px;
+}
+
+.portfolio_foto h1 {
+    font-family: Montserrat-SemiBold;
+    font-size: 22px;
+    color: #232323;
+    line-height: 25px;
+}
+
+.portfolio .portfolio_wrapper .portfolio_foto p {
+    width: 377px;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #232323;
+    line-height: 25px;
+    margin: 10px 0 20px 0;
+}
+
+.portfolio_foto button {
+    border: #A52424 solid 2px;
+    width: 202px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color: #A52424;
+    line-height: 25px;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+}
+
+/* section Price */
+.price {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.price h5 {
+    font-family: Montserrat-Bold;
+    font-size: 64px;
+    color: #232323;
+    margin-bottom: 160px;
+}
+
+.price_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_foto {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    height: 467px;
+    box-shadow: 2px 9px 29px #cac2c2;
+}
+
+.price_foto img {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    top: -103px;
+    left: 110px;
+}
+
+.price_foto h6 {
+    font-family: Montserrat-SemiBold;
+    font-size: 24px;
+    color: #A52424;
+    margin: -80px 0 0 177px;
+}
+
+.service_foto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service_foto_description {
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #232323;
+    line-height: 10px;
+}
+
+.service_foto_time {
+    font-family: Montserrat-SemiBold;
+    font-size: 18px;
+    color: #232323;
+    line-height: 10px;
+}
+
+.price_foto_button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price_foto_button p {
+    font-family: Montserrat-SemiBold;
+    font-size: 36px;
+    color: #A52424;
+    line-height: 10px;
+    margin: 40px 0 33px 33px;
+}
+
+.price_foto_button button {
+    border: #A52424 solid 2px;
+    width: 249px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color: #A52424;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    margin: 25px 40px 25px 33px;
+}
+
+.zapys {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.zapys_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zapys h1 {
+    font-family: Montserrat-Bold;
+    font-size: 64px;
+    color: #232323;
+    margin-bottom: 95px;
+}
+
+.zapys_foto {
+    display: flex;
+}
+
+.zapys_foto img {
+    width: 285px;
+    height: 492px;
+}
+
+.zapys_foto img:nth-child(2) {
+    width: 329px;
+    height: 585px;
+    position: relative;
+    top: -46px;
+    left: -38px;
+}
+
+.for_forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms input {
+    width: 476px;
+    height: 60px;
+    margin-bottom: 40px;
+    border: #232323 solid 1px;
+    margin: 0 0 40px 40px;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #232323;
+    line-height: 25px;
+    text-indent: 3mm;
+}
+.forms textarea {
+    width: 476px;
+    height: 221px;
+    margin: 0 0 40px 40px;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #232323;
+    line-height: 25px;
+    text-indent: 3mm;
+    line-height: 53px;
+}
+.for_forms button{
+    border: #A52424 solid 2px;
+    width: 476px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color: #A52424;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    margin: 0 0 0 40px;
+}
+
+.line{
+    width: 1920px;
+    border-top: #232323 solid 2px;
+}
+/* Footer */
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 157px;
+}
+.end img{
+    width: 113px;
+    height: 84px;
+}
+.social_media{
+    display: flex;
+    align-items: center;
+}
+.social_media img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+     margin-right: 40px; 
+    align-items: center;
+    justify-content: space-between;
+}
+.end p{
+    font-family: Montserrat-SemiBold;
+    font-size: 22px;
+    color: #A52424;
+    line-height: 25px;
+    margin: 40px 0 33px 33px;
+}
